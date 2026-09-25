@@ -62,7 +62,7 @@ pips = {
     allocation_method = "Static"
   }
   pip2 = {
-    pip_name          = "Bastion-01"
+    pip_name          = "jp_pip-02"
     rg_name           = "jp_rg-01"
     location          = "Central India"
     allocation_method = "Static"
@@ -112,7 +112,7 @@ vms = {
   }
 
   backend_vm = {
-    vm_name                         = "frontend-vm-01"
+    vm_name                         = "backend-vm-01"
     rg_name                         = "jp_rg-01"
     location                        = "Central India"
     vm_size                         = "Standard_B2s_v2"
@@ -136,7 +136,7 @@ vms = {
     snet_name = "jp_snet-02"
     vnet_name = "jp_vnet-01"
    
-    nsg_name  = "jp_nsg-01"
+    nsg_name  = "jp_nsg-02"
 
     sr_name                    = "SSHAndHTTP"
     priority                   = 100
